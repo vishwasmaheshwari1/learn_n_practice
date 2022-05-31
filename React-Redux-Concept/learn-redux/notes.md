@@ -1,19 +1,19 @@
-#Understanding React-Redux
+# Understanding React-Redux
 
 Passing down data (state) using props become tedious as the application grows. So, that's why we use redux which creates a central data management entity (i.e. state).
 
 1. Have Store which can be accessed anywhere (globalized state)
 
 
-###STORE -> GLOBALIZED STATE
+### STORE -> GLOBALIZED STATE
 
-###ACTION  -> INCREMENT
+### ACTION  -> INCREMENT
 
-###REDUCER -> Check which action is performed and based on that it will modify our store
+### REDUCER -> Check which action is performed and based on that it will modify our store
 
-###DISPATCH -> Performs the real action and tells reducer to call function/code and change the state
+### DISPATCH -> Performs the real action and tells reducer to call function/code and change the state
 
-##Below code is to understand redux
+## Below code is to understand redux
 ```
 //import {configureStore} from 'redux';
 import {createStore} from 'redux';
@@ -61,7 +61,7 @@ store.dispatch(decrement());
 
 
 
-###After understanding basic creating separate file for actions and reducer
+### After understanding basic creating separate file for actions and reducer
 
 1. defining reducers and action in their separate file
 2. Adding all reducers in store as parameter  by using combinedReducer
