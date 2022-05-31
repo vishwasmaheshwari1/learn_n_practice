@@ -61,8 +61,8 @@ store.dispatch(decrement());
 
 
 
-### After understanding basic creating separate file for actions and reducer
+### After understanding basic, creating separate file for actions and reducer
 
 1. defining reducers and action in their separate file
 2. Adding all reducers in store as parameter  by using combinedReducer
-3. import Provider which connects our store to entore App
+3. import Provider which connects our store to entire App
