@@ -7,13 +7,13 @@
 
 `docker compose stop` and `docker compose start` - to stop and start docker
 
-## Note - Docker not running. So, installing distribution i.e. (recommended is) `Ubuntu` and then installing `WSL` (requires distribution for installation)
+### Note - Docker not running. So, installing distribution i.e. (recommended is) `Ubuntu` and then installing `WSL` (requires distribution for installation)
 
 `npm install mongodb` - to interact with mongodb
 `npm install nodemon` - to monitor js changes in node server (otherwise need to restart node server)
 `npm install ejs` - template engine (to write js in our HTML(document) file)
 
-## `Note: ` Now, after having see our mongodb data loaded in home.ejs it's not enough because we want to perform CRUD operation on our app without reloading the page. So, instead of server side js (node) we'll be using client side javascript (react)
+### `Note: ` Now, after having see our mongodb data loaded in home.ejs it's not enough because we want to perform CRUD operation on our app without reloading the page. So, instead of server side js (node) we'll be using client side javascript (react)
 
 In `views/admin.ejs` we're setting up our client site html to load our `reactdom` component in it.
 
